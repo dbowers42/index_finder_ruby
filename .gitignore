@@ -1,0 +1,11 @@
+
+.gitignore
+.idea/
+.rspec
+.ruby-version
+Gemfile
+Gemfile.lock
+Readme.md
+index_finder.rb
+main.rb
+spec/
