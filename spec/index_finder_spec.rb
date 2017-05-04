@@ -17,13 +17,13 @@ TEST_DATA_WITHOUT_UNIQUE_ITEM = %w(A B C C B A)
 describe IndexFinder do
   describe '#find_index' do
 
-    it 'Finds the first unique item in a list' do
+    it 'Finds the first unique item in a array' do
       TEST_DATA_WITH_UNIQUE_ITEMS.each do |example|
         expect(IndexFinder.find_index(example.input)).to match_array(example.output)
       end
     end
 
-    it 'Returns nil if the list is empty' do
+    it 'Returns nil if the array is empty' do
       expect(IndexFinder.find_index([])).to be(nil)
     end
 

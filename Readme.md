@@ -1,7 +1,7 @@
 ## Index Finder in Ruby
 This repository is an exercise in creating a function that allows you to
 determine the first unique item in a array. To install just clone the repository
-got to the project folder and execute ```bundle```
+go to the project folder and execute ```bundle```
 
 ## Running
 simply running ```ruby main.rb``` will run some hard coded examples
